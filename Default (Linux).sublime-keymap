@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+alt+d"], "command": "clone_file_to_pane" }
+]
