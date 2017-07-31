@@ -1,0 +1,7 @@
+
+[
+  {
+    "caption": "Clone file to other pane",
+    "command": "clone_file_to_pane"
+  }
+]
