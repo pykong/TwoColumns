@@ -32,14 +32,8 @@ class TwoColumns(sublime_plugin.EventListener):
 
         layout = window.get_layout()
 
-        # try to fetch list of maximized window ids from MaxPane plugin
-        try:
-            s = sublime.load_settings(SHARE_OBJECT)
-            maxed_wnds = s.get("maxed_wnds")
-        except:
-            maxed_wnds = []
+        if layout != TWO_COL_LAYOUT:
 
-        if layout != TWO_COL_LAYOUT and window.id() not in maxed_wnds:
             print("layout is different")
             window.set_layout(TWO_COL_LAYOUT)
         else:
