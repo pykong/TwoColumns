@@ -1,7 +1,7 @@
 # TwoColumns
 Sublime Text plugin to ensure two columns layout on every window.
 
-## Background: Why not use Origami?
+## Background: Why not Origami?
 - difficult to use, so many commands ...
 - if hitting the wrong key combination you end up with a very different layout like three panes if you just wanted to move a file
 - no automatic layout setting
