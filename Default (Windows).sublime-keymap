@@ -1,3 +1,5 @@
 [
     { "keys": ["ctrl+alt+d"], "command": "clone_file_to_pane" }
+    // Reminder: Use inbuilt command to move buffer to other pane
+    // { "keys": ["ctrl+k", "ctrl+shift+right"], "command": "move_to_neighboring_group" }
 ]
