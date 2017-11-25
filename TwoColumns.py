@@ -16,10 +16,8 @@ def set_two_columns(view):
     layout = window.get_layout()
 
     if layout != TWO_COL_LAYOUT:
-        print("TwoColumns: layout is different")
+        print("TwoColumns: Changing layout.")
         window.set_layout(TWO_COL_LAYOUT)
-    else:
-        print("TwoColumns: layout is the same")
 
 
 class TwoColumns(sublime_plugin.EventListener):
